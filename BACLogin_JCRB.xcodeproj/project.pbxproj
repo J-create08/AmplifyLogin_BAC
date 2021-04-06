@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		2AF2DAF126163BDC00F13966 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF2DAF026163BDC00F13966 /* Preview Assets.xcassets */; };
 		2AF2DAFC26163BDD00F13966 /* BACLogin_JCRBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2DAFB26163BDD00F13966 /* BACLogin_JCRBTests.swift */; };
 		2AF2DB0726163BDD00F13966 /* BACLogin_JCRBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2DB0626163BDD00F13966 /* BACLogin_JCRBUITests.swift */; };
+		2AF2DB2C26163D3600F13966 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2DB2B26163D3600F13966 /* SignUpView.swift */; };
+		3BEC393E4D82406CA23753F0 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = C845BD5BEEC94AFCA8E1EA5D /* awsconfiguration.json */; };
+		9FBD858F8F2A42C2BF00E13A /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = DA84B82C8DDC449FB3B69B6C /* amplifyconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,16 @@
 		2AF2DB0226163BDD00F13966 /* BACLogin_JCRBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BACLogin_JCRBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF2DB0626163BDD00F13966 /* BACLogin_JCRBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BACLogin_JCRBUITests.swift; sourceTree = "<group>"; };
 		2AF2DB0826163BDD00F13966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF2DB2B26163D3600F13966 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		4F542F5541A5E31E09BFE8DD /* Pods-BACLogin_JCRB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BACLogin_JCRB.debug.xcconfig"; path = "Target Support Files/Pods-BACLogin_JCRB/Pods-BACLogin_JCRB.debug.xcconfig"; sourceTree = "<group>"; };
+		55857589DF6C85327DA9CFA6 /* Pods-BACLogin_JCRBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BACLogin_JCRBTests.release.xcconfig"; path = "Target Support Files/Pods-BACLogin_JCRBTests/Pods-BACLogin_JCRBTests.release.xcconfig"; sourceTree = "<group>"; };
+		5ECA3A93302C4233BCB263F0 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		B70B35AFFD6ADE84C6953322 /* Pods-BACLogin_JCRB-BACLogin_JCRBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BACLogin_JCRB-BACLogin_JCRBUITests.release.xcconfig"; path = "Target Support Files/Pods-BACLogin_JCRB-BACLogin_JCRBUITests/Pods-BACLogin_JCRB-BACLogin_JCRBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4C9288B66FF969516EE5C2F /* Pods-BACLogin_JCRBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BACLogin_JCRBTests.debug.xcconfig"; path = "Target Support Files/Pods-BACLogin_JCRBTests/Pods-BACLogin_JCRBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C845BD5BEEC94AFCA8E1EA5D /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		DA84B82C8DDC449FB3B69B6C /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		E335A6A706338368E8CCC2A8 /* Pods-BACLogin_JCRB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BACLogin_JCRB.release.xcconfig"; path = "Target Support Files/Pods-BACLogin_JCRB/Pods-BACLogin_JCRB.release.xcconfig"; sourceTree = "<group>"; };
+		F3EAA5073AAD2BF53AE20936 /* Pods-BACLogin_JCRB-BACLogin_JCRBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BACLogin_JCRB-BACLogin_JCRBUITests.debug.xcconfig"; path = "Target Support Files/Pods-BACLogin_JCRB-BACLogin_JCRBUITests/Pods-BACLogin_JCRB-BACLogin_JCRBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,13 +85,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0915DBE3391896EF2C1279E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F542F5541A5E31E09BFE8DD /* Pods-BACLogin_JCRB.debug.xcconfig */,
+				E335A6A706338368E8CCC2A8 /* Pods-BACLogin_JCRB.release.xcconfig */,
+				F3EAA5073AAD2BF53AE20936 /* Pods-BACLogin_JCRB-BACLogin_JCRBUITests.debug.xcconfig */,
+				B70B35AFFD6ADE84C6953322 /* Pods-BACLogin_JCRB-BACLogin_JCRBUITests.release.xcconfig */,
+				C4C9288B66FF969516EE5C2F /* Pods-BACLogin_JCRBTests.debug.xcconfig */,
+				55857589DF6C85327DA9CFA6 /* Pods-BACLogin_JCRBTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2AF2DADD26163BDA00F13966 = {
 			isa = PBXGroup;
 			children = (
+				4A5871CA3D924DEBB6E35C4E /* AmplifyConfig */,
 				2AF2DAE826163BDA00F13966 /* BACLogin_JCRB */,
 				2AF2DAFA26163BDD00F13966 /* BACLogin_JCRBTests */,
 				2AF2DB0526163BDD00F13966 /* BACLogin_JCRBUITests */,
 				2AF2DAE726163BDA00F13966 /* Products */,
+				0915DBE3391896EF2C1279E4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +123,7 @@
 		2AF2DAE826163BDA00F13966 /* BACLogin_JCRB */ = {
 			isa = PBXGroup;
 			children = (
+				2AF2DB2A26163D1300F13966 /* Views */,
 				2AF2DAE926163BDA00F13966 /* BACLogin_JCRBApp.swift */,
 				2AF2DAEB26163BDA00F13966 /* ContentView.swift */,
 				2AF2DAED26163BDC00F13966 /* Assets.xcassets */,
@@ -130,6 +159,25 @@
 			path = BACLogin_JCRBUITests;
 			sourceTree = "<group>";
 		};
+		2AF2DB2A26163D1300F13966 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AF2DB2B26163D3600F13966 /* SignUpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A5871CA3D924DEBB6E35C4E /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				5ECA3A93302C4233BCB263F0 /* amplifytools.xcconfig */,
+				DA84B82C8DDC449FB3B69B6C /* amplifyconfiguration.json */,
+				C845BD5BEEC94AFCA8E1EA5D /* awsconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF2DB0B26163BDD00F13966 /* Build configuration list for PBXNativeTarget "BACLogin_JCRB" */;
 			buildPhases = (
+				1C3FF291EC3F670DD42A4C62 /* [CP] Check Pods Manifest.lock */,
 				2AF2DAE226163BDA00F13966 /* Sources */,
 				2AF2DAE326163BDA00F13966 /* Frameworks */,
 				2AF2DAE426163BDA00F13966 /* Resources */,
+				AA243F4CE4DF91370852CD76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF2DB0E26163BDD00F13966 /* Build configuration list for PBXNativeTarget "BACLogin_JCRBTests" */;
 			buildPhases = (
+				0DBFD839BF9B554F6C807DBA /* [CP] Check Pods Manifest.lock */,
 				2AF2DAF326163BDD00F13966 /* Sources */,
 				2AF2DAF426163BDD00F13966 /* Frameworks */,
 				2AF2DAF526163BDD00F13966 /* Resources */,
@@ -172,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF2DB1126163BDD00F13966 /* Build configuration list for PBXNativeTarget "BACLogin_JCRBUITests" */;
 			buildPhases = (
+				150ACE59443F050AE017B8B7 /* [CP] Check Pods Manifest.lock */,
 				2AF2DAFE26163BDD00F13966 /* Sources */,
 				2AF2DAFF26163BDD00F13966 /* Frameworks */,
 				2AF2DB0026163BDD00F13966 /* Resources */,
+				4F39973CE3B11C6F9BFC5258 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +288,8 @@
 			files = (
 				2AF2DAF126163BDC00F13966 /* Preview Assets.xcassets in Resources */,
 				2AF2DAEE26163BDC00F13966 /* Assets.xcassets in Resources */,
+				9FBD858F8F2A42C2BF00E13A /* amplifyconfiguration.json in Resources */,
+				3BEC393E4D82406CA23753F0 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +309,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DBFD839BF9B554F6C807DBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BACLogin_JCRBTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		150ACE59443F050AE017B8B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BACLogin_JCRB-BACLogin_JCRBUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C3FF291EC3F670DD42A4C62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BACLogin_JCRB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F39973CE3B11C6F9BFC5258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BACLogin_JCRB-BACLogin_JCRBUITests/Pods-BACLogin_JCRB-BACLogin_JCRBUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BACLogin_JCRB-BACLogin_JCRBUITests/Pods-BACLogin_JCRB-BACLogin_JCRBUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BACLogin_JCRB-BACLogin_JCRBUITests/Pods-BACLogin_JCRB-BACLogin_JCRBUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA243F4CE4DF91370852CD76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BACLogin_JCRB/Pods-BACLogin_JCRB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BACLogin_JCRB/Pods-BACLogin_JCRB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BACLogin_JCRB/Pods-BACLogin_JCRB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2AF2DAE226163BDA00F13966 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2AF2DAEC26163BDA00F13966 /* ContentView.swift in Sources */,
+				2AF2DB2C26163D3600F13966 /* SignUpView.swift in Sources */,
 				2AF2DAEA26163BDA00F13966 /* BACLogin_JCRBApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +573,7 @@
 		};
 		2AF2DB0C26163BDD00F13966 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F542F5541A5E31E09BFE8DD /* Pods-BACLogin_JCRB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +595,7 @@
 		};
 		2AF2DB0D26163BDD00F13966 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E335A6A706338368E8CCC2A8 /* Pods-BACLogin_JCRB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +617,7 @@
 		};
 		2AF2DB0F26163BDD00F13966 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C9288B66FF969516EE5C2F /* Pods-BACLogin_JCRBTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +639,7 @@
 		};
 		2AF2DB1026163BDD00F13966 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55857589DF6C85327DA9CFA6 /* Pods-BACLogin_JCRBTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +661,7 @@
 		};
 		2AF2DB1226163BDD00F13966 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3EAA5073AAD2BF53AE20936 /* Pods-BACLogin_JCRB-BACLogin_JCRBUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +681,7 @@
 		};
 		2AF2DB1326163BDD00F13966 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70B35AFFD6ADE84C6953322 /* Pods-BACLogin_JCRB-BACLogin_JCRBUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

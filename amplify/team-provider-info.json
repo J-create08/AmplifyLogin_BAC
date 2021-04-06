@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bacloginjcrb-dev-113850-authRole",
+      "UnauthRoleArn": "arn:aws:iam::278589628070:role/amplify-bacloginjcrb-dev-113850-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::278589628070:role/amplify-bacloginjcrb-dev-113850-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bacloginjcrb-dev-113850-deployment",
+      "UnauthRoleName": "amplify-bacloginjcrb-dev-113850-unauthRole",
+      "StackName": "amplify-bacloginjcrb-dev-113850",
+      "StackId": "arn:aws:cloudformation:us-east-1:278589628070:stack/amplify-bacloginjcrb-dev-113850/20b43460-9311-11eb-883b-0a90e6def441",
+      "AmplifyAppId": "d1vcqm2ei4pja9"
+    },
+    "categories": {
+      "auth": {
+        "bacloginjcrb13c37339": {}
+      }
+    }
+  }
+}

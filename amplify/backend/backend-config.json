@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "bacloginjcrb13c37339": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
